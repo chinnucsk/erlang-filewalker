@@ -1,0 +1,21 @@
+{
+    application,
+    filewalker,
+    [
+        {description, ""},
+        {vsn, "1"},
+        {registered, []},
+        {
+            applications,
+            [
+                kernel,
+                stdlib,
+                crypto
+            ]
+        },
+        {
+            mod,
+            {filewalker_app, []}
+        }
+    ]
+}.    
