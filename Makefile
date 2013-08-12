@@ -21,6 +21,7 @@ test:
 clean:
 	-@rm *.deb
 	@$(REBAR) clean
+	@$(REBAR) delete-deps
 
 debs: release 
 	-@rm *.deb
